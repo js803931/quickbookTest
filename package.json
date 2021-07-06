@@ -2,6 +2,9 @@
   "name": "intuit-nodejsclient",
   "version": "1.0.0",
   "description": "A sample NodeJs application to demonstrate the use of the client OAuth library",
+  "engines": {
+    "node": "v12.0.0"
+  },
   "scripts": {
     "start": "node app",
     "test": "./node_modules/mocha/bin/mocha test/**/*-test.js --reporter spec",
